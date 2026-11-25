@@ -1,0 +1,2948 @@
+{
+  "meta": {
+    "total_nodes": 17412,
+    "total_edges": 37857,
+    "node_types": {
+      "Song": 3615,
+      "Person": 11361,
+      "RecordLabel": 1217,
+      "Album": 996,
+      "MusicalGroup": 223
+    },
+    "edge_types": {
+      "InterpolatesFrom": 1574,
+      "RecordedBy": 3798,
+      "PerformerOf": 13587,
+      "ComposerOf": 3290,
+      "ProducerOf": 3209,
+      "InStyleOf": 2289,
+      "LyricalReferenceTo": 1496,
+      "CoverOf": 1429,
+      "DistributedBy": 3013,
+      "MemberOf": 568,
+      "LyricistOf": 2985,
+      "DirectlySamples": 619
+    },
+    "duplicate_person_names": 1584
+  },
+  "q1_sailor": {
+    "profile": {
+      "id": 17255,
+      "name": "Sailor Shift",
+      "bands": [
+        {
+          "id": 17260,
+          "name": "Ivy Echos",
+          "type": "MusicalGroup"
+        }
+      ],
+      "total_works": 46,
+      "direct_works": 38,
+      "band_works": 11,
+      "notable_works": 26,
+      "debut_year": 2024,
+      "latest_year": 2040,
+      "genres": {
+        "Oceanus Folk": 44,
+        "Synthwave": 1,
+        "Americana": 1
+      },
+      "direct_influenced_nodes": 17,
+      "indirect_influenced_nodes": 0,
+      "direct_influence_edge_types": {
+        "InStyleOf": 8,
+        "LyricalReferenceTo": 6,
+        "InterpolatesFrom": 4,
+        "DirectlySamples": 2
+      }
+    },
+    "timeline": [
+      {
+        "year": 2024,
+        "total": 4,
+        "notable": 1
+      },
+      {
+        "year": 2025,
+        "total": 3,
+        "notable": 1
+      },
+      {
+        "year": 2026,
+        "total": 4,
+        "notable": 2
+      },
+      {
+        "year": 2028,
+        "total": 5,
+        "notable": 2
+      },
+      {
+        "year": 2029,
+        "total": 1,
+        "notable": 1
+      },
+      {
+        "year": 2030,
+        "total": 5,
+        "notable": 2
+      },
+      {
+        "year": 2031,
+        "total": 4,
+        "notable": 3
+      },
+      {
+        "year": 2032,
+        "total": 2,
+        "notable": 1
+      },
+      {
+        "year": 2033,
+        "total": 2,
+        "notable": 2
+      },
+      {
+        "year": 2034,
+        "total": 5,
+        "notable": 3
+      },
+      {
+        "year": 2035,
+        "total": 1,
+        "notable": 1
+      },
+      {
+        "year": 2036,
+        "total": 3,
+        "notable": 2
+      },
+      {
+        "year": 2037,
+        "total": 1,
+        "notable": 1
+      },
+      {
+        "year": 2038,
+        "total": 3,
+        "notable": 3
+      },
+      {
+        "year": 2040,
+        "total": 3,
+        "notable": 1
+      }
+    ],
+    "influenced_by": [
+      {
+        "id": 17299,
+        "name": "The Saltwater Weavers",
+        "type": "MusicalGroup",
+        "count": 2,
+        "types": {
+          "InStyleOf": 1,
+          "LyricalReferenceTo": 1
+        }
+      },
+      {
+        "id": 17192,
+        "name": "The Fiddle & The Fjord",
+        "type": "MusicalGroup",
+        "count": 2,
+        "types": {
+          "InStyleOf": 1,
+          "InterpolatesFrom": 1
+        }
+      },
+      {
+        "id": 14934,
+        "name": "Miss Jennifer Williams",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "CoverOf": 1
+        }
+      },
+      {
+        "id": 14935,
+        "name": "William Robinson",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "CoverOf": 1
+        }
+      },
+      {
+        "id": 14936,
+        "name": "Judy Yang",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "CoverOf": 1
+        }
+      },
+      {
+        "id": 14937,
+        "name": "Joanna Avery",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "CoverOf": 1
+        }
+      },
+      {
+        "id": 14938,
+        "name": "Molly Gonzalez",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "CoverOf": 1
+        }
+      },
+      {
+        "id": 2705,
+        "name": "Jeremiah Love",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 2706,
+        "name": "Zachary Francis",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 2707,
+        "name": "Robert Woods",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 8208,
+        "name": "Igor Dyś",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 10904,
+        "name": "Ping Jin",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 10905,
+        "name": "Tao Wen",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 10906,
+        "name": "Guiying Ren",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      },
+      {
+        "id": 10907,
+        "name": "Lei Shi",
+        "type": "Person",
+        "count": 1,
+        "types": {
+          "InStyleOf": 1
+        }
+      }
+    ],
+    "collaborators": [
+      {
+        "id": 17260,
+        "name": "Ivy Echos",
+        "type": "MusicalGroup",
+        "count": 11
+      },
+      {
+        "id": 17256,
+        "name": "Maya Jensen",
+        "type": "Person",
+        "count": 5
+      },
+      {
+        "id": 17257,
+        "name": "Lila \"Lilly\" Hartman",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 17258,
+        "name": "Jade Thompson",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 17259,
+        "name": "Sophie Ramirez",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 17041,
+        "name": "Arlo Sterling",
+        "type": "Person",
+        "count": 3
+      },
+      {
+        "id": 17042,
+        "name": "Lyra Blaze",
+        "type": "Person",
+        "count": 3
+      },
+      {
+        "id": 17043,
+        "name": "Orion Cruz",
+        "type": "Person",
+        "count": 3
+      },
+      {
+        "id": 17044,
+        "name": "Elara May",
+        "type": "Person",
+        "count": 3
+      },
+      {
+        "id": 17045,
+        "name": "Cassian Rae",
+        "type": "Person",
+        "count": 3
+      },
+      {
+        "id": 17046,
+        "name": "The Brine Choir",
+        "type": "MusicalGroup",
+        "count": 3
+      },
+      {
+        "id": 17226,
+        "name": "Kai Reynolds",
+        "type": "Person",
+        "count": 2
+      },
+      {
+        "id": 17164,
+        "name": "Rusty Riggins",
+        "type": "Person",
+        "count": 2
+      },
+      {
+        "id": 17189,
+        "name": "Ewan MacCrae",
+        "type": "Person",
+        "count": 2
+      },
+      {
+        "id": 17191,
+        "name": "Freya Lindholm",
+        "type": "Person",
+        "count": 2
+      }
+    ],
+    "influenced_direct": [
+      {
+        "id": 17110,
+        "name": "The Hollow Monarchs",
+        "type": "MusicalGroup",
+        "count": 3
+      },
+      {
+        "id": 17022,
+        "name": "Cassette Future",
+        "type": "MusicalGroup",
+        "count": 2
+      },
+      {
+        "id": 17361,
+        "name": "Copper Canyon Ghosts",
+        "type": "MusicalGroup",
+        "count": 2
+      },
+      {
+        "id": 17032,
+        "name": "Silver Veil",
+        "type": "MusicalGroup",
+        "count": 1
+      },
+      {
+        "id": 17063,
+        "name": "The Phantom Operators",
+        "type": "MusicalGroup",
+        "count": 1
+      },
+      {
+        "id": 17126,
+        "name": "Cassian Storm",
+        "type": "Person",
+        "count": 1
+      },
+      {
+        "id": 17155,
+        "name": "Claire Holmes",
+        "type": "Person",
+        "count": 1
+      },
+      {
+        "id": 16960,
+        "name": "Violet Engines",
+        "type": "MusicalGroup",
+        "count": 1
+      },
+      {
+        "id": 16971,
+        "name": "Jasper Quinn",
+        "type": "Person",
+        "count": 1
+      },
+      {
+        "id": 16996,
+        "name": "Crimson Carriage",
+        "type": "MusicalGroup",
+        "count": 1
+      },
+      {
+        "id": 17100,
+        "name": "Rainfall Fiction",
+        "type": "MusicalGroup",
+        "count": 1
+      },
+      {
+        "id": 17120,
+        "name": "Selkie's Hollow",
+        "type": "MusicalGroup",
+        "count": 1
+      },
+      {
+        "id": 17146,
+        "name": "Julia Carter",
+        "type": "Person",
+        "count": 1
+      },
+      {
+        "id": 17235,
+        "name": "Genevieve Bell",
+        "type": "Person",
+        "count": 1
+      },
+      {
+        "id": 17243,
+        "name": "Mariner's Refrain",
+        "type": "MusicalGroup",
+        "count": 1
+      }
+    ],
+    "influenced_indirect": [],
+    "ego_graph": {
+      "nodes": [
+        {
+          "id": 17255,
+          "name": "Sailor Shift",
+          "type": "Person",
+          "role": "focus"
+        },
+        {
+          "id": 17260,
+          "name": "Ivy Echos",
+          "type": "MusicalGroup",
+          "role": "band"
+        },
+        {
+          "id": 17256,
+          "name": "Maya Jensen",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17257,
+          "name": "Lila \"Lilly\" Hartman",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17258,
+          "name": "Jade Thompson",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17259,
+          "name": "Sophie Ramirez",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17041,
+          "name": "Arlo Sterling",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17042,
+          "name": "Lyra Blaze",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17043,
+          "name": "Orion Cruz",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17044,
+          "name": "Elara May",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17045,
+          "name": "Cassian Rae",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17046,
+          "name": "The Brine Choir",
+          "type": "MusicalGroup",
+          "role": "collaborator"
+        },
+        {
+          "id": 17226,
+          "name": "Kai Reynolds",
+          "type": "Person",
+          "role": "collaborator"
+        },
+        {
+          "id": 17299,
+          "name": "The Saltwater Weavers",
+          "type": "MusicalGroup",
+          "role": "influencer"
+        },
+        {
+          "id": 17192,
+          "name": "The Fiddle & The Fjord",
+          "type": "MusicalGroup",
+          "role": "influencer"
+        },
+        {
+          "id": 14934,
+          "name": "Miss Jennifer Williams",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 14935,
+          "name": "William Robinson",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 14936,
+          "name": "Judy Yang",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 14937,
+          "name": "Joanna Avery",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 14938,
+          "name": "Molly Gonzalez",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 2705,
+          "name": "Jeremiah Love",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 2706,
+          "name": "Zachary Francis",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 2707,
+          "name": "Robert Woods",
+          "type": "Person",
+          "role": "influencer"
+        },
+        {
+          "id": 17110,
+          "name": "The Hollow Monarchs",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17022,
+          "name": "Cassette Future",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17361,
+          "name": "Copper Canyon Ghosts",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17032,
+          "name": "Silver Veil",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17063,
+          "name": "The Phantom Operators",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17126,
+          "name": "Cassian Storm",
+          "type": "Person",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17155,
+          "name": "Claire Holmes",
+          "type": "Person",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 16960,
+          "name": "Violet Engines",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 16971,
+          "name": "Jasper Quinn",
+          "type": "Person",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 16996,
+          "name": "Crimson Carriage",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17100,
+          "name": "Rainfall Fiction",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        },
+        {
+          "id": 17120,
+          "name": "Selkie's Hollow",
+          "type": "MusicalGroup",
+          "role": "influenced_direct"
+        }
+      ],
+      "links": [
+        {
+          "source": 17255,
+          "target": 17260,
+          "relation": "MemberOf"
+        },
+        {
+          "source": 17255,
+          "target": 17260,
+          "relation": "Collaborator",
+          "weight": 11
+        },
+        {
+          "source": 17255,
+          "target": 17256,
+          "relation": "Collaborator",
+          "weight": 5
+        },
+        {
+          "source": 17255,
+          "target": 17257,
+          "relation": "Collaborator",
+          "weight": 4
+        },
+        {
+          "source": 17255,
+          "target": 17258,
+          "relation": "Collaborator",
+          "weight": 4
+        },
+        {
+          "source": 17255,
+          "target": 17259,
+          "relation": "Collaborator",
+          "weight": 4
+        },
+        {
+          "source": 17255,
+          "target": 17041,
+          "relation": "Collaborator",
+          "weight": 3
+        },
+        {
+          "source": 17255,
+          "target": 17042,
+          "relation": "Collaborator",
+          "weight": 3
+        },
+        {
+          "source": 17255,
+          "target": 17043,
+          "relation": "Collaborator",
+          "weight": 3
+        },
+        {
+          "source": 17255,
+          "target": 17044,
+          "relation": "Collaborator",
+          "weight": 3
+        },
+        {
+          "source": 17255,
+          "target": 17045,
+          "relation": "Collaborator",
+          "weight": 3
+        },
+        {
+          "source": 17255,
+          "target": 17046,
+          "relation": "Collaborator",
+          "weight": 3
+        },
+        {
+          "source": 17255,
+          "target": 17226,
+          "relation": "Collaborator",
+          "weight": 2
+        },
+        {
+          "source": 17255,
+          "target": 17299,
+          "relation": "InfluencedBy",
+          "weight": 2
+        },
+        {
+          "source": 17255,
+          "target": 17192,
+          "relation": "InfluencedBy",
+          "weight": 2
+        },
+        {
+          "source": 17255,
+          "target": 14934,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 14935,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 14936,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 14937,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 14938,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 2705,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 2706,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17255,
+          "target": 2707,
+          "relation": "InfluencedBy",
+          "weight": 1
+        },
+        {
+          "source": 17110,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 3
+        },
+        {
+          "source": 17022,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 2
+        },
+        {
+          "source": 17361,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 2
+        },
+        {
+          "source": 17032,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 17063,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 17126,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 17155,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 16960,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 16971,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 16996,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 17100,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        },
+        {
+          "source": 17120,
+          "target": 17255,
+          "relation": "InfluencedBySailor",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "q2_oceanus_folk": {
+    "total_works": 305,
+    "total_artists": 764,
+    "yearly_trend": [
+      {
+        "year": 1992,
+        "of_releases": 1,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 1993,
+        "of_releases": 3,
+        "of_notable": 2,
+        "influenced_works": 0
+      },
+      {
+        "year": 1994,
+        "of_releases": 3,
+        "of_notable": 2,
+        "influenced_works": 0
+      },
+      {
+        "year": 1995,
+        "of_releases": 5,
+        "of_notable": 2,
+        "influenced_works": 0
+      },
+      {
+        "year": 1997,
+        "of_releases": 2,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 1999,
+        "of_releases": 2,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 2000,
+        "of_releases": 1,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 2001,
+        "of_releases": 3,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 2004,
+        "of_releases": 7,
+        "of_notable": 7,
+        "influenced_works": 1
+      },
+      {
+        "year": 2005,
+        "of_releases": 3,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 2007,
+        "of_releases": 3,
+        "of_notable": 2,
+        "influenced_works": 3
+      },
+      {
+        "year": 2008,
+        "of_releases": 2,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 2009,
+        "of_releases": 2,
+        "of_notable": 1,
+        "influenced_works": 1
+      },
+      {
+        "year": 2010,
+        "of_releases": 12,
+        "of_notable": 11,
+        "influenced_works": 5
+      },
+      {
+        "year": 2011,
+        "of_releases": 1,
+        "of_notable": 1,
+        "influenced_works": 0
+      },
+      {
+        "year": 2012,
+        "of_releases": 0,
+        "of_notable": 0,
+        "influenced_works": 1
+      },
+      {
+        "year": 2013,
+        "of_releases": 19,
+        "of_notable": 15,
+        "influenced_works": 7
+      },
+      {
+        "year": 2014,
+        "of_releases": 2,
+        "of_notable": 2,
+        "influenced_works": 0
+      },
+      {
+        "year": 2016,
+        "of_releases": 2,
+        "of_notable": 2,
+        "influenced_works": 1
+      },
+      {
+        "year": 2017,
+        "of_releases": 21,
+        "of_notable": 18,
+        "influenced_works": 17
+      },
+      {
+        "year": 2018,
+        "of_releases": 0,
+        "of_notable": 0,
+        "influenced_works": 3
+      },
+      {
+        "year": 2019,
+        "of_releases": 1,
+        "of_notable": 1,
+        "influenced_works": 2
+      },
+      {
+        "year": 2020,
+        "of_releases": 19,
+        "of_notable": 19,
+        "influenced_works": 11
+      },
+      {
+        "year": 2021,
+        "of_releases": 3,
+        "of_notable": 3,
+        "influenced_works": 4
+      },
+      {
+        "year": 2022,
+        "of_releases": 5,
+        "of_notable": 5,
+        "influenced_works": 9
+      },
+      {
+        "year": 2023,
+        "of_releases": 34,
+        "of_notable": 34,
+        "influenced_works": 44
+      },
+      {
+        "year": 2024,
+        "of_releases": 13,
+        "of_notable": 10,
+        "influenced_works": 12
+      },
+      {
+        "year": 2025,
+        "of_releases": 11,
+        "of_notable": 9,
+        "influenced_works": 10
+      },
+      {
+        "year": 2026,
+        "of_releases": 25,
+        "of_notable": 22,
+        "influenced_works": 27
+      },
+      {
+        "year": 2027,
+        "of_releases": 6,
+        "of_notable": 5,
+        "influenced_works": 28
+      },
+      {
+        "year": 2028,
+        "of_releases": 11,
+        "of_notable": 5,
+        "influenced_works": 14
+      },
+      {
+        "year": 2029,
+        "of_releases": 19,
+        "of_notable": 17,
+        "influenced_works": 30
+      },
+      {
+        "year": 2030,
+        "of_releases": 9,
+        "of_notable": 5,
+        "influenced_works": 7
+      },
+      {
+        "year": 2031,
+        "of_releases": 14,
+        "of_notable": 12,
+        "influenced_works": 4
+      },
+      {
+        "year": 2032,
+        "of_releases": 4,
+        "of_notable": 2,
+        "influenced_works": 0
+      },
+      {
+        "year": 2033,
+        "of_releases": 3,
+        "of_notable": 2,
+        "influenced_works": 1
+      },
+      {
+        "year": 2034,
+        "of_releases": 11,
+        "of_notable": 8,
+        "influenced_works": 2
+      },
+      {
+        "year": 2035,
+        "of_releases": 8,
+        "of_notable": 5,
+        "influenced_works": 1
+      },
+      {
+        "year": 2036,
+        "of_releases": 3,
+        "of_notable": 2,
+        "influenced_works": 0
+      },
+      {
+        "year": 2037,
+        "of_releases": 5,
+        "of_notable": 2,
+        "influenced_works": 1
+      },
+      {
+        "year": 2038,
+        "of_releases": 4,
+        "of_notable": 3,
+        "influenced_works": 1
+      },
+      {
+        "year": 2040,
+        "of_releases": 3,
+        "of_notable": 1,
+        "influenced_works": 0
+      }
+    ],
+    "influenced_genres": [
+      {
+        "genre": "Oceanus Folk",
+        "count": 98
+      },
+      {
+        "genre": "Dream Pop",
+        "count": 29
+      },
+      {
+        "genre": "Indie Folk",
+        "count": 28
+      },
+      {
+        "genre": "Desert Rock",
+        "count": 24
+      },
+      {
+        "genre": "Space Rock",
+        "count": 17
+      },
+      {
+        "genre": "Synthwave",
+        "count": 11
+      },
+      {
+        "genre": "Americana",
+        "count": 10
+      },
+      {
+        "genre": "Doom Metal",
+        "count": 7
+      },
+      {
+        "genre": "Jazz Surf Rock",
+        "count": 5
+      },
+      {
+        "genre": "Synthpop",
+        "count": 4
+      },
+      {
+        "genre": "Indie Rock",
+        "count": 3
+      },
+      {
+        "genre": "Post-Apocalyptic Folk",
+        "count": 3
+      },
+      {
+        "genre": "Symphonic Metal",
+        "count": 2
+      },
+      {
+        "genre": "Darkwave",
+        "count": 2
+      },
+      {
+        "genre": "Alternative Rock",
+        "count": 2
+      }
+    ],
+    "influenced_artists": [
+      {
+        "id": 3504,
+        "name": "Zacharie Martins",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 2006,
+        "name": "Filippo Pelli",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 16802,
+        "name": "Cosmic Drift",
+        "type": "MusicalGroup",
+        "count": 4
+      },
+      {
+        "id": 4394,
+        "name": "Xiuying Li",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 4395,
+        "name": "Xia Cui",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 4397,
+        "name": "Lei Shen",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 1490,
+        "name": "Yong Shen",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 1491,
+        "name": "Yong Lai",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 1492,
+        "name": "Juan Yu",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 1493,
+        "name": "Lei Jin",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 16797,
+        "name": "Loro",
+        "type": "MusicalGroup",
+        "count": 4
+      },
+      {
+        "id": 1180,
+        "name": "Guiying Liao",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 16753,
+        "name": "Crimson Theorem",
+        "type": "MusicalGroup",
+        "count": 4
+      },
+      {
+        "id": 1182,
+        "name": "Yan Zou",
+        "type": "Person",
+        "count": 4
+      },
+      {
+        "id": 16892,
+        "name": "Embers of Wrath",
+        "type": "MusicalGroup",
+        "count": 3
+      }
+    ],
+    "inspired_by_before_sailor": [
+      {
+        "genre": "Oceanus Folk",
+        "count": 70
+      },
+      {
+        "genre": "Indie Folk",
+        "count": 60
+      },
+      {
+        "genre": "Synthwave",
+        "count": 10
+      },
+      {
+        "genre": "Synthpop",
+        "count": 7
+      },
+      {
+        "genre": "Doom Metal",
+        "count": 6
+      },
+      {
+        "genre": "Psychedelic Rock",
+        "count": 2
+      },
+      {
+        "genre": "Dream Pop",
+        "count": 2
+      },
+      {
+        "genre": "Alternative Rock",
+        "count": 2
+      },
+      {
+        "genre": "Americana",
+        "count": 1
+      },
+      {
+        "genre": "Southern Gothic Rock",
+        "count": 1
+      }
+    ],
+    "inspired_by_since_sailor": [
+      {
+        "genre": "Oceanus Folk",
+        "count": 77
+      },
+      {
+        "genre": "Indie Folk",
+        "count": 40
+      },
+      {
+        "genre": "Dream Pop",
+        "count": 13
+      },
+      {
+        "genre": "Psychedelic Rock",
+        "count": 10
+      },
+      {
+        "genre": "Synthwave",
+        "count": 9
+      },
+      {
+        "genre": "Doom Metal",
+        "count": 8
+      },
+      {
+        "genre": "Desert Rock",
+        "count": 8
+      },
+      {
+        "genre": "Indie Rock",
+        "count": 7
+      },
+      {
+        "genre": "Alternative Rock",
+        "count": 6
+      },
+      {
+        "genre": "Blues Rock",
+        "count": 4
+      }
+    ]
+  },
+  "q3_rising_stars": {
+    "top_of_artists": [
+      {
+        "id": 17327,
+        "name": "Drowned Harbor",
+        "type": "MusicalGroup",
+        "total_works": 12,
+        "of_works": 12,
+        "notable_works": 5,
+        "notable_rate": 41.7,
+        "influenced_others": 13,
+        "connected_to_sailor": false,
+        "debut_year": 2005,
+        "latest_year": 2013,
+        "rising_score": 71.5,
+        "trajectory": [
+          {
+            "year": 2005,
+            "works": 3,
+            "cum_works": 3,
+            "cum_notable": 1
+          },
+          {
+            "year": 2008,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 2
+          },
+          {
+            "year": 2010,
+            "works": 3,
+            "cum_works": 8,
+            "cum_notable": 4
+          },
+          {
+            "year": 2013,
+            "works": 4,
+            "cum_works": 12,
+            "cum_notable": 5
+          }
+        ]
+      },
+      {
+        "id": 17260,
+        "name": "Ivy Echos",
+        "type": "MusicalGroup",
+        "total_works": 11,
+        "of_works": 11,
+        "notable_works": 4,
+        "notable_rate": 36.4,
+        "influenced_others": 14,
+        "connected_to_sailor": true,
+        "debut_year": 2024,
+        "latest_year": 2026,
+        "rising_score": 72.0,
+        "trajectory": [
+          {
+            "year": 2024,
+            "works": 4,
+            "cum_works": 4,
+            "cum_notable": 1
+          },
+          {
+            "year": 2025,
+            "works": 3,
+            "cum_works": 7,
+            "cum_notable": 2
+          },
+          {
+            "year": 2026,
+            "works": 4,
+            "cum_works": 11,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17299,
+        "name": "The Saltwater Weavers",
+        "type": "MusicalGroup",
+        "total_works": 9,
+        "of_works": 9,
+        "notable_works": 4,
+        "notable_rate": 44.4,
+        "influenced_others": 15,
+        "connected_to_sailor": false,
+        "debut_year": 1995,
+        "latest_year": 2001,
+        "rising_score": 67.5,
+        "trajectory": [
+          {
+            "year": 1995,
+            "works": 2,
+            "cum_works": 2,
+            "cum_notable": 1
+          },
+          {
+            "year": 1997,
+            "works": 2,
+            "cum_works": 4,
+            "cum_notable": 2
+          },
+          {
+            "year": 1999,
+            "works": 2,
+            "cum_works": 6,
+            "cum_notable": 3
+          },
+          {
+            "year": 2001,
+            "works": 3,
+            "cum_works": 9,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17340,
+        "name": "Orla Seabloom",
+        "type": "Person",
+        "total_works": 8,
+        "of_works": 8,
+        "notable_works": 8,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": false,
+        "debut_year": 2029,
+        "latest_year": 2029,
+        "rising_score": 40.0,
+        "trajectory": [
+          {
+            "year": 2029,
+            "works": 8,
+            "cum_works": 8,
+            "cum_notable": 8
+          }
+        ]
+      },
+      {
+        "id": 17314,
+        "name": "The Tide Singer's Knot",
+        "type": "MusicalGroup",
+        "total_works": 8,
+        "of_works": 8,
+        "notable_works": 4,
+        "notable_rate": 50.0,
+        "influenced_others": 13,
+        "connected_to_sailor": false,
+        "debut_year": 1993,
+        "latest_year": 1995,
+        "rising_score": 60.5,
+        "trajectory": [
+          {
+            "year": 1993,
+            "works": 3,
+            "cum_works": 3,
+            "cum_notable": 2
+          },
+          {
+            "year": 1994,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 3
+          },
+          {
+            "year": 1995,
+            "works": 3,
+            "cum_works": 8,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17349,
+        "name": "Beatrice Albright",
+        "type": "Person",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 7,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2031,
+        "latest_year": 2035,
+        "rising_score": 47.0,
+        "trajectory": [
+          {
+            "year": 2031,
+            "works": 5,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 6,
+            "cum_notable": 6
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 7,
+            "cum_notable": 7
+          }
+        ]
+      },
+      {
+        "id": 17355,
+        "name": "Daniel O'Connell",
+        "type": "Person",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 7,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2031,
+        "latest_year": 2035,
+        "rising_score": 47.0,
+        "trajectory": [
+          {
+            "year": 2031,
+            "works": 5,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 6,
+            "cum_notable": 6
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 7,
+            "cum_notable": 7
+          }
+        ]
+      },
+      {
+        "id": 17361,
+        "name": "Copper Canyon Ghosts",
+        "type": "MusicalGroup",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 7,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2035,
+        "rising_score": 47.0,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 4,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2035,
+            "works": 3,
+            "cum_works": 7,
+            "cum_notable": 7
+          }
+        ]
+      },
+      {
+        "id": 17046,
+        "name": "The Brine Choir",
+        "type": "MusicalGroup",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 4,
+        "notable_rate": 57.1,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 42.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 3,
+            "cum_works": 3,
+            "cum_notable": 2
+          },
+          {
+            "year": 2035,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 3
+          },
+          {
+            "year": 2038,
+            "works": 2,
+            "cum_works": 7,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 2006,
+        "name": "Filippo Pelli",
+        "type": "Person",
+        "total_works": 11,
+        "of_works": 5,
+        "notable_works": 10,
+        "notable_rate": 90.9,
+        "influenced_others": 13,
+        "connected_to_sailor": false,
+        "debut_year": 2004,
+        "latest_year": 2024,
+        "rising_score": 72.5,
+        "trajectory": [
+          {
+            "year": 2004,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2007,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 1
+          },
+          {
+            "year": 2010,
+            "works": 3,
+            "cum_works": 5,
+            "cum_notable": 4
+          },
+          {
+            "year": 2013,
+            "works": 2,
+            "cum_works": 7,
+            "cum_notable": 6
+          },
+          {
+            "year": 2014,
+            "works": 1,
+            "cum_works": 8,
+            "cum_notable": 7
+          },
+          {
+            "year": 2017,
+            "works": 2,
+            "cum_works": 10,
+            "cum_notable": 9
+          },
+          {
+            "year": 2024,
+            "works": 1,
+            "cum_works": 11,
+            "cum_notable": 10
+          }
+        ]
+      },
+      {
+        "id": 17256,
+        "name": "Maya Jensen",
+        "type": "Person",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 5,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2024,
+        "latest_year": 2037,
+        "rising_score": 40.0,
+        "trajectory": [
+          {
+            "year": 2024,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2025,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2026,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2033,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2037,
+            "works": 1,
+            "cum_works": 5,
+            "cum_notable": 5
+          }
+        ]
+      },
+      {
+        "id": 17259,
+        "name": "Sophie Ramirez",
+        "type": "Person",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 5,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2024,
+        "latest_year": 2035,
+        "rising_score": 37.0,
+        "trajectory": [
+          {
+            "year": 2024,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2025,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2026,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2030,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 5,
+            "cum_notable": 5
+          }
+        ]
+      },
+      {
+        "id": 17296,
+        "name": "Coralia Bellweather",
+        "type": "Person",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 5,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 1995,
+        "latest_year": 2036,
+        "rising_score": 38.5,
+        "trajectory": [
+          {
+            "year": 1995,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 1997,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 1999,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2001,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2036,
+            "works": 1,
+            "cum_works": 5,
+            "cum_notable": 5
+          }
+        ]
+      },
+      {
+        "id": 16987,
+        "name": "Tidal Reverie",
+        "type": "MusicalGroup",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 2,
+        "notable_rate": 40.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2033,
+        "latest_year": 2035,
+        "rising_score": 28.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 2,
+            "cum_works": 2,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 3,
+            "cum_works": 5,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 17120,
+        "name": "Selkie's Hollow",
+        "type": "MusicalGroup",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 2,
+        "notable_rate": 40.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2037,
+        "latest_year": 2037,
+        "rising_score": 31.0,
+        "trajectory": [
+          {
+            "year": 2037,
+            "works": 5,
+            "cum_works": 5,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 1276,
+        "name": "Yong Dong",
+        "type": "Person",
+        "total_works": 13,
+        "of_works": 4,
+        "notable_works": 13,
+        "notable_rate": 100.0,
+        "influenced_others": 10,
+        "connected_to_sailor": false,
+        "debut_year": 2010,
+        "latest_year": 2029,
+        "rising_score": 72.0,
+        "trajectory": [
+          {
+            "year": 2010,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2013,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2015,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2017,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2020,
+            "works": 3,
+            "cum_works": 8,
+            "cum_notable": 8
+          },
+          {
+            "year": 2023,
+            "works": 1,
+            "cum_works": 9,
+            "cum_notable": 9
+          },
+          {
+            "year": 2024,
+            "works": 1,
+            "cum_works": 10,
+            "cum_notable": 10
+          },
+          {
+            "year": 2025,
+            "works": 1,
+            "cum_works": 11,
+            "cum_notable": 11
+          },
+          {
+            "year": 2029,
+            "works": 2,
+            "cum_works": 13,
+            "cum_notable": 13
+          }
+        ]
+      },
+      {
+        "id": 3504,
+        "name": "Zacharie Martins",
+        "type": "Person",
+        "total_works": 8,
+        "of_works": 4,
+        "notable_works": 8,
+        "notable_rate": 100.0,
+        "influenced_others": 30,
+        "connected_to_sailor": false,
+        "debut_year": 2007,
+        "latest_year": 2027,
+        "rising_score": 107.0,
+        "trajectory": [
+          {
+            "year": 2007,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2010,
+            "works": 2,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2013,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2023,
+            "works": 2,
+            "cum_works": 7,
+            "cum_notable": 7
+          },
+          {
+            "year": 2027,
+            "works": 1,
+            "cum_works": 8,
+            "cum_notable": 8
+          }
+        ]
+      },
+      {
+        "id": 16760,
+        "name": "Fiesta Nocturna",
+        "type": "MusicalGroup",
+        "total_works": 6,
+        "of_works": 4,
+        "notable_works": 6,
+        "notable_rate": 100.0,
+        "influenced_others": 5,
+        "connected_to_sailor": false,
+        "debut_year": 2010,
+        "latest_year": 2025,
+        "rising_score": 38.5,
+        "trajectory": [
+          {
+            "year": 2010,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2013,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2017,
+            "works": 2,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2020,
+            "works": 1,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2025,
+            "works": 1,
+            "cum_works": 6,
+            "cum_notable": 6
+          }
+        ]
+      },
+      {
+        "id": 5459,
+        "name": "Tao Jin",
+        "type": "Person",
+        "total_works": 6,
+        "of_works": 4,
+        "notable_works": 6,
+        "notable_rate": 100.0,
+        "influenced_others": 5,
+        "connected_to_sailor": false,
+        "debut_year": 2010,
+        "latest_year": 2025,
+        "rising_score": 38.5,
+        "trajectory": [
+          {
+            "year": 2010,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2013,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2017,
+            "works": 2,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2020,
+            "works": 1,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2025,
+            "works": 1,
+            "cum_works": 6,
+            "cum_notable": 6
+          }
+        ]
+      },
+      {
+        "id": 1843,
+        "name": "Chao Tan",
+        "type": "Person",
+        "total_works": 5,
+        "of_works": 4,
+        "notable_works": 5,
+        "notable_rate": 100.0,
+        "influenced_others": 153,
+        "connected_to_sailor": false,
+        "debut_year": 2010,
+        "latest_year": 2023,
+        "rising_score": 405.5,
+        "trajectory": [
+          {
+            "year": 2010,
+            "works": 2,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2017,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2023,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 5
+          }
+        ]
+      },
+      {
+        "id": 17295,
+        "name": "Silas Finch",
+        "type": "Person",
+        "total_works": 4,
+        "of_works": 4,
+        "notable_works": 4,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": false,
+        "debut_year": 1995,
+        "latest_year": 2001,
+        "rising_score": 20.0,
+        "trajectory": [
+          {
+            "year": 1995,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 1997,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 1999,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2001,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17297,
+        "name": "Barnaby Quill",
+        "type": "Person",
+        "total_works": 4,
+        "of_works": 4,
+        "notable_works": 4,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": false,
+        "debut_year": 1995,
+        "latest_year": 2001,
+        "rising_score": 20.0,
+        "trajectory": [
+          {
+            "year": 1995,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 1997,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 1999,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2001,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17298,
+        "name": "Marina Grey",
+        "type": "Person",
+        "total_works": 4,
+        "of_works": 4,
+        "notable_works": 4,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": false,
+        "debut_year": 1995,
+        "latest_year": 2001,
+        "rising_score": 20.0,
+        "trajectory": [
+          {
+            "year": 1995,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 1997,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 1999,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2001,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17309,
+        "name": "Levi Holloway",
+        "type": "Person",
+        "total_works": 4,
+        "of_works": 4,
+        "notable_works": 4,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 1993,
+        "latest_year": 2036,
+        "rising_score": 33.5,
+        "trajectory": [
+          {
+            "year": 1993,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 1994,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 1995,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2036,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17310,
+        "name": "Marin Thorne",
+        "type": "Person",
+        "total_works": 4,
+        "of_works": 4,
+        "notable_works": 4,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 1993,
+        "latest_year": 2040,
+        "rising_score": 39.5,
+        "trajectory": [
+          {
+            "year": 1993,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 1994,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 1995,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          },
+          {
+            "year": 2040,
+            "works": 1,
+            "cum_works": 4,
+            "cum_notable": 4
+          }
+        ]
+      }
+    ],
+    "rising_candidates": [
+      {
+        "id": 17349,
+        "name": "Beatrice Albright",
+        "type": "Person",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 7,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2031,
+        "latest_year": 2035,
+        "rising_score": 47.0,
+        "trajectory": [
+          {
+            "year": 2031,
+            "works": 5,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 6,
+            "cum_notable": 6
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 7,
+            "cum_notable": 7
+          }
+        ]
+      },
+      {
+        "id": 17355,
+        "name": "Daniel O'Connell",
+        "type": "Person",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 7,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2031,
+        "latest_year": 2035,
+        "rising_score": 47.0,
+        "trajectory": [
+          {
+            "year": 2031,
+            "works": 5,
+            "cum_works": 5,
+            "cum_notable": 5
+          },
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 6,
+            "cum_notable": 6
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 7,
+            "cum_notable": 7
+          }
+        ]
+      },
+      {
+        "id": 17361,
+        "name": "Copper Canyon Ghosts",
+        "type": "MusicalGroup",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 7,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2035,
+        "rising_score": 47.0,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 4,
+            "cum_works": 4,
+            "cum_notable": 4
+          },
+          {
+            "year": 2035,
+            "works": 3,
+            "cum_works": 7,
+            "cum_notable": 7
+          }
+        ]
+      },
+      {
+        "id": 17046,
+        "name": "The Brine Choir",
+        "type": "MusicalGroup",
+        "total_works": 7,
+        "of_works": 7,
+        "notable_works": 4,
+        "notable_rate": 57.1,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 42.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 3,
+            "cum_works": 3,
+            "cum_notable": 2
+          },
+          {
+            "year": 2035,
+            "works": 2,
+            "cum_works": 5,
+            "cum_notable": 3
+          },
+          {
+            "year": 2038,
+            "works": 2,
+            "cum_works": 7,
+            "cum_notable": 4
+          }
+        ]
+      },
+      {
+        "id": 17041,
+        "name": "Arlo Sterling",
+        "type": "Person",
+        "total_works": 3,
+        "of_works": 3,
+        "notable_works": 3,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 31.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2038,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          }
+        ]
+      },
+      {
+        "id": 17042,
+        "name": "Lyra Blaze",
+        "type": "Person",
+        "total_works": 3,
+        "of_works": 3,
+        "notable_works": 3,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 31.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2038,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          }
+        ]
+      },
+      {
+        "id": 17043,
+        "name": "Orion Cruz",
+        "type": "Person",
+        "total_works": 3,
+        "of_works": 3,
+        "notable_works": 3,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 31.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2038,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          }
+        ]
+      },
+      {
+        "id": 17044,
+        "name": "Elara May",
+        "type": "Person",
+        "total_works": 3,
+        "of_works": 3,
+        "notable_works": 3,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 31.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2038,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          }
+        ]
+      },
+      {
+        "id": 17045,
+        "name": "Cassian Rae",
+        "type": "Person",
+        "total_works": 3,
+        "of_works": 3,
+        "notable_works": 3,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2034,
+        "latest_year": 2038,
+        "rising_score": 31.5,
+        "trajectory": [
+          {
+            "year": 2034,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          },
+          {
+            "year": 2038,
+            "works": 1,
+            "cum_works": 3,
+            "cum_notable": 3
+          }
+        ]
+      },
+      {
+        "id": 17120,
+        "name": "Selkie's Hollow",
+        "type": "MusicalGroup",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 2,
+        "notable_rate": 40.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2037,
+        "latest_year": 2037,
+        "rising_score": 31.0,
+        "trajectory": [
+          {
+            "year": 2037,
+            "works": 5,
+            "cum_works": 5,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 16987,
+        "name": "Tidal Reverie",
+        "type": "MusicalGroup",
+        "total_works": 5,
+        "of_works": 5,
+        "notable_works": 2,
+        "notable_rate": 40.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2033,
+        "latest_year": 2035,
+        "rising_score": 28.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 2,
+            "cum_works": 2,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 3,
+            "cum_works": 5,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 16983,
+        "name": "Sophie Bennett",
+        "type": "Person",
+        "total_works": 2,
+        "of_works": 2,
+        "notable_works": 2,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2033,
+        "latest_year": 2035,
+        "rising_score": 22.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 16984,
+        "name": "Michael Harris",
+        "type": "Person",
+        "total_works": 2,
+        "of_works": 2,
+        "notable_works": 2,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2033,
+        "latest_year": 2035,
+        "rising_score": 22.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 16985,
+        "name": "Kara Lee",
+        "type": "Person",
+        "total_works": 2,
+        "of_works": 2,
+        "notable_works": 2,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2033,
+        "latest_year": 2035,
+        "rising_score": 22.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 16986,
+        "name": "Ethan Clarke",
+        "type": "Person",
+        "total_works": 2,
+        "of_works": 2,
+        "notable_works": 2,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2033,
+        "latest_year": 2035,
+        "rising_score": 22.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          },
+          {
+            "year": 2035,
+            "works": 1,
+            "cum_works": 2,
+            "cum_notable": 2
+          }
+        ]
+      },
+      {
+        "id": 17118,
+        "name": "Zachary Cole",
+        "type": "Person",
+        "total_works": 1,
+        "of_works": 1,
+        "notable_works": 1,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2037,
+        "latest_year": 2037,
+        "rising_score": 20.0,
+        "trajectory": [
+          {
+            "year": 2037,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          }
+        ]
+      },
+      {
+        "id": 17119,
+        "name": "Lia Grant",
+        "type": "Person",
+        "total_works": 1,
+        "of_works": 1,
+        "notable_works": 1,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": true,
+        "debut_year": 2037,
+        "latest_year": 2037,
+        "rising_score": 20.0,
+        "trajectory": [
+          {
+            "year": 2037,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          }
+        ]
+      },
+      {
+        "id": 17409,
+        "name": "Isla Quinn",
+        "type": "Person",
+        "total_works": 1,
+        "of_works": 1,
+        "notable_works": 1,
+        "notable_rate": 100.0,
+        "influenced_others": 0,
+        "connected_to_sailor": false,
+        "debut_year": 2033,
+        "latest_year": 2033,
+        "rising_score": 11.0,
+        "trajectory": [
+          {
+            "year": 2033,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          }
+        ]
+      },
+      {
+        "id": 12139,
+        "name": "Amber Smith",
+        "type": "Person",
+        "total_works": 1,
+        "of_works": 1,
+        "notable_works": 1,
+        "notable_rate": 100.0,
+        "influenced_others": 1,
+        "connected_to_sailor": false,
+        "debut_year": 2030,
+        "latest_year": 2030,
+        "rising_score": 9.0,
+        "trajectory": [
+          {
+            "year": 2030,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          }
+        ]
+      },
+      {
+        "id": 12140,
+        "name": "Gang Zhu",
+        "type": "Person",
+        "total_works": 1,
+        "of_works": 1,
+        "notable_works": 1,
+        "notable_rate": 100.0,
+        "influenced_others": 1,
+        "connected_to_sailor": false,
+        "debut_year": 2030,
+        "latest_year": 2030,
+        "rising_score": 9.0,
+        "trajectory": [
+          {
+            "year": 2030,
+            "works": 1,
+            "cum_works": 1,
+            "cum_notable": 1
+          }
+        ]
+      }
+    ]
+  }
+}
